@@ -1,8 +1,7 @@
-num1 = input("Enter first number")
-num1 = int(num1)
+def area():
+    num1 = int(input("Enter first number"))
+    num2 = int(input("Enter second number"))
+    total_area = num1 * num2
+    print(f"Area is {total_area}")
 
-num2 = input("Enter second number")
-num2 = int(num2)
-
-multiplication = num1 * num2
-print(multiplication)
+area()
