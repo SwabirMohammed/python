@@ -1,4 +1,4 @@
-#Start with a capital letter
+#Start with a capital letter when mentioning the class to be cloned from
 class House1():
     doors = 4
     windows = 16
